@@ -38,6 +38,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YQ8-vd-eCQ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -49,6 +52,10 @@
                             <constraint firstItem="MT2-HG-DTi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sUf-AL-LvY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pressButton" destination="ftQ-fM-7xH" id="8b4-gA-9GC"/>
+                        <outlet property="valueLabel" destination="tQP-S7-pRQ" id="QDX-Po-F7b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
